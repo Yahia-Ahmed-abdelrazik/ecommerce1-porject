@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cart</title>
+  <!-- icon -->
+  <link rel="icon" href="./img/icoms/icons8-a2z-48.png">
+  <!-- style -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/cart.css" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  -->
+
+</head>
+
+<body>
+  <section id="header">
+    <!-- logo -->
+    <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+        <polygon fill="#9e9d24" points="34,26 33,15 43,14 37,31 40,32 42,24 42,36 33,34 38,18 35,18"></polygon>
+        <path fill="#9e9d24"
+          d="M14,44l9-5l-4-3l-5-26L7,9l4,5L7,33l-4,4l9,1l-3-4l0.938-5H14.2l1.8,9L14,44z M10.663,25.133L12,18	l1.542,7.708L10.663,25.133z">
+        </path>
+        <path fill="#9e9d24"
+          d="M25.596,27.2c0.682-1.177,1.571-2.286,2.511-3.485c0.932-1.19,1.941-2.527,2.589-4.161	c0.644-1.602,0.987-3.2,1.142-4.909c0.097-1.693,0.048-3.52-1.109-5.38c-0.306-0.453-0.703-0.906-1.225-1.276	c-0.524-0.362-1.172-0.617-1.815-0.7c-0.7-0.081-1.125-0.011-1.635,0.064c-0.501,0.1-1.016,0.262-1.497,0.526	c-0.725,0.377-1.325,0.986-1.712,1.658L21,4l1,19c0-1.94,0.471-4.581,0.955-6.792c0.041-0.169,0.081-0.339,0.123-0.508	c0.197-0.804,0.411-1.605,0.677-2.389c0.231-0.681,0.452-1.377,0.979-1.896c0.403-0.396,0.944-0.661,1.509-0.688	c0.412-0.019,0.832,0.095,1.173,0.328c0.359,0.245,0.539,0.649,0.668,1.054c0.253,0.798,0.416,1.623,0.448,2.46	c0.068,1.286-0.144,2.688-0.619,3.872c-0.881,2.352-3.237,4.424-4.87,7.288c-0.824,1.421-1.43,3.029-1.725,4.663	C21,32.027,21.011,33.555,21,35l10,1V23l-2,8h-4.815c0.004-0.022,0.005-0.044,0.009-0.066C24.432,29.612,24.913,28.373,25.596,27.2z">
+        </path>
+      </svg>
+    </a>
+    <!-- links -->
+    <div>
+      <ul id="navbar">
+        <li><a  href="./index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <lord-icon id="Shopping_cart" src="https://cdn.lordicon.com/lwumwgrp.json" trigger="hover"
+            colors="primary:#eee966,secondary:#f24c00,tertiary:#ffffff" style="width:40px;height:40px">
+          </lord-icon>
+          <span class="badge"></span>
+          <div class="carts_products">
+            <div></div>
+            <button onclick="window.location='./cart.html'" class="btn">view all products</button>
+          </div>
+        </li>
+        <li><a id="login" href="./login.html">Login</a>
+          <a id="user_info" href="#"></a>
+        </li>
+        <li><a id="logout">Log Out</a>
+        </li>
+        <a href="#" id="close_bar"><i class="fas fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <i class="fas fa-shopping-bag" onclick="window.location='./cart.html'"></i>
+      <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+  </section>
+
+  <section id="products" class="section-p1">
+    <h2>Your Products</h2>
+    <p>happy shopping </p>
+    <div class="product_items product_items_1">
+    </div>
+  </section>
+
+  <hr>
+  <section id="Prices" class="section-m1 section-p1">
+    <h2>Price</h2>
+    <div>
+      <button id="showPrice" class="btn">Show Price</button>
+      <h3></h3>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="col">
+      <img src="./img/icoms/icons8-a2z-48.png" alt="">
+      <h4>Contact</h4>
+      <p><strong>Address :</strong> 55 mone road, street 8,Egypt</p>
+      <p><strong>Phone :</strong> +20 100 511 6936</p>
+      <p><strong>Hours :</strong> 10:00 - 18:00, Mon - sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="follow-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitch"></i>
+          <i class="fab fa-youtube "></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram "></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery information</a>
+      <a href="#">Privacy POlice</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Accont</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>Form App Store or Google PLay</p>
+      <div class="row">
+        <img src="./img/icoms/icons8-a2z-48.png" alt="">
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy;2024,Html Css Js Ecommerce</p>
+    </div>
+  </footer>
+  <!-- js -->
+  <!-- icon -->
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <script src="./js/user.js"></script>
+  <script src="./js/cart.js"></script>
+
+</body>
+
+</html>

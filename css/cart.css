@@ -1,0 +1,38 @@
+#header {
+    position: sticky;
+}
+
+/* products */
+#Prices {
+    text-align: center;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    button:hover {
+        background-color: var(--my-coler-4);
+        color: var(--my-coler-1);
+    }
+
+    h3 {
+        font-size: 30px;
+        color: red;
+    }
+}
+
+/* 
+ */
+
+.product_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#products .product_item {
+    /* margin: 0 20px; */
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign in</title>
+  <!-- icon -->
+  <link rel="icon" href="./img/icoms/icons8-a2z-48.png">
+  <link rel="stylesheet" href="./css/login&sign.css">
+</head>
+
+<body>
+  <div class="form">
+
+    <ul class="tab-group">
+      <li class="tab active"><a href="./sign.html">Sign Up</a></li>
+      <li class="tab"><a href="./login.html">Log In</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="signup">
+        <h1>Sign Up for Free</h1>
+
+        <!-- <form action="/" method="post"> -->
+
+        <div class="top-row">
+          <div class="field-wrap">
+            <label>
+              First Name<span class="req">*</span>
+            </label>
+            <input id="firstName" onfocus="focus_l(this)" type="text" required autocomplete="off" />
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Last Name<span class="req">*</span>
+            </label>
+            <input id="lastName" onfocus="focus_l(this)" type="text" required autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="field-wrap">
+          <label>
+            Email Address<span class="req">*</span>
+          </label>
+          <input id="email" type="email" required autocomplete="off" onclick="focus_l(this) " />
+
+        </div>
+
+        <div class="field-wrap">
+          <label>
+            Set A Password<span class="req">*</span>
+          </label>
+          <input type="password" id="password" onclick="focus_l(this)"  required autocomplete="off" />
+        </div>
+        <p class="forgot"><a href="./login.html">Have An Account?</a></p>
+
+        <button id="get_started" type="submit" class="button button-block">Get Started</button>
+
+        </form>
+
+      </div>
+
+
+
+    </div><!-- tab-content -->
+
+  </div> <!-- /form -->
+  <script src="./js/login$sign.js"></script>
+  <script src="./js/sign.js"></script>
+</body>
+
+</html>
