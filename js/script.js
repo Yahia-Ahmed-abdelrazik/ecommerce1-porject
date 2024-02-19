@@ -63,7 +63,7 @@ let product_items_info = [
         product_prise: '40',
     }, {
         id: 10,
-        product_items_url: '../img/png/4.jpg',
+        product_items_url: '../img/png/p4.jpg',
         product_name: 'mld',
         product_info: 'anime hoody',
         product_prise: '84',
