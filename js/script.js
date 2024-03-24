@@ -9,7 +9,7 @@ let product_items_2 = document.querySelector('.product_items_2')
 let product_items_info = [
     {
         id: 1,
-        product_items_url: '../img/png/1.jpg',
+        product_items_url: '../img/png/h1.jpg',
         product_name: 'als-2',
         product_info: 'anime hoody',
         product_prise: '45',
