@@ -109,7 +109,7 @@ let product_items_info = [
 function drowProduct() {
     let x = product_items_info.map((item) => {
         return `      <div class="product_item" onmouseleave="cartStop(this)" onmouseenter="cartMove(this)">
-    <img src=${item.product_items_url} alt="">
+    <img src=${item.product_items_url} alt="404">
     <div class="product_des">
     <span>${item.product_name}</span>
     <h5>${item.product_info}</h5>
